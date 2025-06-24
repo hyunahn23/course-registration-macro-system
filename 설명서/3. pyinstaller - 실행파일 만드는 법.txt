@@ -1,0 +1,5 @@
+test.py -> test.exe
+pyinstaller -w -F --icon=.\test.ico --add-data '.\chromedriver\chromedriver.exe;chromedriver' --add-data '.\manual\manual.txt;manual' --add-data '.\user\user.txt;user' --add-data=".\test.ico;." .\test.py
+
+수강신청.py -> 수강신청.exe
+pyinstaller -w -F --icon=.\test.ico --add-data '.\chromedriver\chromedriver.exe;chromedriver' --add-data '.\manual\manual.txt;manual' --add-data '.\user\user.txt;user' --add-data=".\test.ico;." .\수강신청.py

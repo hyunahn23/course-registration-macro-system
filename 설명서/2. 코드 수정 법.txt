@@ -1,0 +1,11 @@
+수강신청.py 코드
+1. 15번째 줄 specified_date = datetime(2023, 2, 9) 코드 찾기
+datetime 괄호 안에 유통기한 걸 날짜 정하기
+
+3. 136번째 줄 job2 = schedule.every().day.at("09:59:56").do(next_job) 코드 찾기
+day.at 괄호 안에 시간을 정해주기. (수강신청 시작하기 5초 전이 적절, 시작 시간보다 너무 이르면 렉먹고 에러걸림)
+
+test.py 코드
+1. 13번째 줄 specified_date = datetime(2023, 2, 9) 코드 찾기
+datetime 괄호 안에 유통기한 걸 날짜 정하기
+

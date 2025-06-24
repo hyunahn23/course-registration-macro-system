@@ -1,0 +1,7 @@
+CTRL + J 누르면 아래 터미널 창이 열림
+
+터미널 창에 pip install 쓰고 라이브러리 설치
+
+설치 해야할 라이브러리
+pip install schedule
+pip install selenium
